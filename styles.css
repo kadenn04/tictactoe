@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(39, 39, 43);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header {
+    color: white;
+    font-size: 80px;
+}
+
+.score-tracker {
+    color: white;
+    font-size: 30px;
+}
+
+#game-container {
+    display: grid;
+    grid-template: 100px 100px 100px / 100px 100px 100px;
+    gap: 10px;
+    background-color: black;
+}
+
+.grid-square {
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    background-color: rgb(39, 39, 43);
+    border: none;
+}
+
+.grid-square:hover {
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+.selected:hover {
+    background-color: rgba(204, 28, 28, 0.445);
+}
